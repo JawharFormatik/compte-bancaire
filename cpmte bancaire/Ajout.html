@@ -1,0 +1,31 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="fr">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Insertion de nouveaux compte</title>
+<script src="Controle.js"></script>
+</head>
+
+<body>
+
+<form method="POST" name="f" action="Inserer.php">
+		<p>Insertion de nouveaux compte </p>
+	<p>&nbsp;</p>
+	<p>N° du compte :&nbsp; <input type="text" name="T1" size="20"></p>
+	<p>N° du carte d identite Nationale : <input type="text" name="T2" size="20"></p>
+	<p>Nom : <input type="text" name="T3" size="20"></p>
+	<p>Prenom : <input type="text" name="T4" size="20"></p>
+	<p>Type : <select size="1" name="D1">
+	<option>Courant</option>
+	<option>Epargne</option>
+	</select></p>
+	<p>Solde:&nbsp; <input type="text" name="T5" size="20"></p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p><input type="submit" value="Envoyer" name="B1" onclick="return verif1()"><input type="reset" value="Rétablir" name="B2"></p>
+</form>
+
+</body>
+
+</html>
